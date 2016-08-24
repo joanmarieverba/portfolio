@@ -1,0 +1,82 @@
+body {
+  background-image: url("http://jmvtestsite.com/wp-content/uploads/2016/08/background-955454_1280.jpg");
+  /*background-color: lightblue;*/
+}
+
+#header {
+  font-family: Roboto;
+  text-align: center;
+  margin-left: 30px;
+}
+
+.container {
+  display: -webkit-flex;
+  display: flex;
+}
+
+
+.column1 {
+  -webkit-flex: none;
+  flex: none;
+  box-sizing: border-box;
+  margin-left: 10px;
+  width: 40%;
+}
+
+
+.column2 {
+  -webkit-flex: none;
+  flex: none;
+  box-sizing: border-box;
+  margin-top: 30px;
+  margin-left: 50px;
+  width: 25%;
+  font-size: 24px;
+  font-family: sans-serif;
+
+}
+
+.img-title {
+  padding-top: 50px;
+  font-weight: bold;
+  border: 1px solid black;
+}
+
+img {
+  padding-bottom: 20px;
+}
+
+.intro {
+  font-family: Roboto;
+}
+
+.left-space {
+    -webkit-flex: initial;
+    flex: initial;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 150px;
+}
+
+
+lower-box {
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+
+.resume {
+  font-family: Roboto;
+}
+
+.socialButtons {
+  margin-bottom: 10px;
+}
+
+upper-box {
+  float: left;
+  font-weight: bold;
+  padding-bottom: 50px;
+  padding-right: 200px;
+}
