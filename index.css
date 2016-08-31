@@ -1,13 +1,60 @@
 body {
-  background-image: url("http://jmvtestsite.com/wp-content/uploads/2016/08/background-955454_1280.jpg");
-  /*background-color: lightblue;*/
+  /*background-image: url("http://jmvtestsite.com/wp-content/uploads/2016/08/computer-on-desk-5.jpg");*/
+  background-color: whitesmoke;
+  margin: 0;
+  padding: 0;
+}
+
+.mainHeaderImage {
+    background-image: url("http://jmvtestsite.com/wp-content/uploads/2016/08/computer-desk.jpg");
+    height: 65vw;
+    opacity: 0.2;
+    width: 100%;
 }
 
 #header {
-  font-family: Roboto;
-  text-align: center;
-  margin-left: 30px;
+    font-family: 'Roboto';
+    text-align: center;
+    z-index: 100;
+    position: absolute;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    left: 25vw;
+    top: 20vw;
 }
+
+#more {
+  left: 25vw;
+  /*top: 60vw;*/
+  padding-top: 30vw;
+  padding-bottom: 0;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  margin: 0 auto;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid black;
+  left: 65vw;
+  top: 30vw;
+}
+
+#about {
+    padding-top: 8vw;
+    padding-bottom: 1vw;
+}
+
+#aboutText {
+    color: slategray;
+    font-family: Roboto;
+    font-size: 16px;
+    padding-bottom: 20vw;
+}
+
+
 
 .container {
   display: -webkit-flex;
@@ -79,4 +126,59 @@ upper-box {
   font-weight: bold;
   padding-bottom: 50px;
   padding-right: 200px;
+}
+
+
+/*Nav bar*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: slategray;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding-top: 1vw;
+    padding-left: 1.5vw;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+/*li a:hover {
+    background-color: green;
+}*/
+
+/*Text with lines on either side:*/
+
+h4 {
+  display: table;
+  white-space: nowrap;
+  width: 80%;
+  color: slategray;
+}
+
+h4:before,
+h4:after {
+  background-clip: padding;
+  background-image: linear-gradient(transparent 49%, #a9a9a9 50%, #a9a9a9 51%, transparent 51%);
+  content: "";
+  display: table-cell;
+  width: 42%;
+}
+
+h4:before {
+  border-right: 15px solid transparent;
+}
+
+h4:after {
+  border-left: 15px solid transparent;
 }
