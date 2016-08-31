@@ -44,14 +44,18 @@ body {
 
 #about {
     padding-top: 8vw;
-    padding-bottom: 1vw;
+    padding-bottom: 4vw;
+    padding-left: 15vw;
 }
 
 #aboutText {
     color: slategray;
     font-family: Roboto;
     font-size: 16px;
-    padding-bottom: 20vw;
+    padding-bottom: 10vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    text-align: center;
 }
 
 
