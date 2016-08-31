@@ -44,7 +44,7 @@ body {
 
 #about {
     padding-top: 8vw;
-    padding-bottom: 4vw;
+    padding-bottom: 2vw;
     padding-left: 15vw;
 }
 
@@ -52,7 +52,7 @@ body {
     color: slategray;
     font-family: Roboto;
     font-size: 16px;
-    padding-bottom: 10vw;
+    /*padding-bottom: 1vw;*/
     padding-left: 5vw;
     padding-right: 5vw;
     text-align: center;
@@ -101,6 +101,12 @@ img {
   font-family: Roboto;
 }
 
+#tiy {
+  border: none;
+  display: block;
+  margin: 0 auto;
+}
+
 .left-space {
     -webkit-flex: initial;
     flex: initial;
@@ -115,10 +121,6 @@ lower-box {
   padding-bottom: 5px;
 }
 
-
-.resume {
-  font-family: Roboto;
-}
 
 .socialButtons {
   margin-left: 10px;
