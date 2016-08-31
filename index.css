@@ -20,26 +20,37 @@ body {
     color: black;
     font-size: 24px;
     font-weight: bold;
-    left: 25vw;
-    top: 20vw;
+    margin: 0 auto;
+    width: 100%;
+    top: 22vw;
+}
+
+@media (max-width: 550px) {
+    #header {
+    top: 10vw;
+  }
 }
 
 #more {
+  height: 20px;
+  margin-top: -76px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
   left: 25vw;
-  /*top: 60vw;*/
-  padding-top: 30vw;
-  padding-bottom: 0;
+  padding-bottom: 60px;
 }
 
 .arrow-down {
   width: 0;
   height: 0;
   margin: 0 auto;
+  margin-top: -30px;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
   border-top: 20px solid black;
-  left: 65vw;
-  top: 30vw;
+  /*left: 65vw;
+  top: 30vw;*/
 }
 
 #about {
@@ -65,11 +76,11 @@ body {
   margin: 0 auto;
 }
 
-
 /*Nav bar*/
 ul {
     list-style-type: none;
     margin: 0;
+    margin-top: 2vw;
     padding: 0;
     overflow: hidden;
     background-color: slategray;
@@ -85,7 +96,7 @@ li a {
     text-align: center;
     padding-top: 1vw;
     padding-left: 1.5vw;
-    margin-bottom: 0;
+    margin-bottom: 1vw;
     text-decoration: none;
 }
 
