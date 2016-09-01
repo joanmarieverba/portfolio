@@ -74,6 +74,7 @@ body {
   border: none;
   display: block;
   margin: 0 auto;
+  padding-bottom: 10px;
 }
 
 /*Nav bar*/
