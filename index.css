@@ -6,7 +6,7 @@ body {
 }
 
 .mainHeaderImage {
-    background-image: url("http://jmvtestsite.com/wp-content/uploads/2016/08/computer-desk.jpg");
+    background-image: url("computer-desk.jpg");
     height: 65vw;
     opacity: 0.2;
     width: 100%;
