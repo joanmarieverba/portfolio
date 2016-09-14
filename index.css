@@ -64,8 +64,8 @@ body {
     font-family: Roboto;
     font-size: 16px;
     /*padding-bottom: 1vw;*/
-    padding-left: 15vw;
-    padding-right: 15vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
     text-align: center;
 }
 
@@ -74,8 +74,8 @@ body {
     font-family: Roboto;
     font-size: 16px;
     /*padding-bottom: 1vw;*/
-    padding-left: 15vw;
-    padding-right: 15vw;
+    padding-left: 29vw;
+    padding-right: 29vw;
     text-align: left;
 }
 
@@ -84,7 +84,7 @@ body {
   border: none;
   display: block;
   margin: 0 auto;
-  padding-bottom: 10px;
+  padding-bottom: 12px;
 }
 
 /*Nav bar*/
