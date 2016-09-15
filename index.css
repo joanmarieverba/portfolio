@@ -128,7 +128,7 @@ h4 {
 h4:before,
 h4:after {
   background-clip: padding;
-  background-image: linear-gradient(transparent 49%, #a9a9a9 50%, #a9a9a9 51%, transparent 51%);
+  background-image: linear-gradient(transparent 35%, #a9a9a9 50%, #a9a9a9 51%, transparent 35%);
   content: "";
   display: table-cell;
   width: 42%;
