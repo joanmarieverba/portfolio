@@ -69,14 +69,27 @@ body {
     text-align: center;
 }
 
-#midText {
+/* #midText {
     color: slategray;
     font-family: Roboto;
     font-size: 16px;
-    /*padding-bottom: 1vw;*/
+
     padding-left: 29vw;
     padding-right: 29vw;
     text-align: left;
+} */
+
+.skills {
+    color: midnightblue;
+    font-family: Roboto;
+    font-size: 14px;
+    margin-left: 12vw;
+
+}
+
+.subheader {
+    font-size: 16px;
+
 }
 
 
@@ -85,7 +98,7 @@ body {
   display: block;
   margin: 0 auto;
   padding-bottom: 12px;
-}
+} 
 
 /*Nav bar*/
 ul {
