@@ -79,6 +79,16 @@ body {
     text-align: left;
 } */
 
+.round {
+    height: 10vw;
+    width: 10vw;
+    border-radius: 50%;
+    margin-top: 2vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .skills {
     color: midnightblue;
     font-family: Roboto;
