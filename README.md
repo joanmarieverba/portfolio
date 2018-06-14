@@ -4,4 +4,4 @@ Used various CSS techniques for the header photo and horizontal line separators.
 Also used media queries for responsiveness.  
 View entire site at: http://joanmarieverba.co.technology
 
-![alt text](opening-screen.jpg)  
+![alt text](opening-screen.png)  
