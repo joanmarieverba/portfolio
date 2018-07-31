@@ -69,6 +69,11 @@ body {
     text-align: center;
 }
 
+.imgsize {
+    height: 100px;
+    width: 300px;
+}
+
 /* #midText {
     color: slategray;
     font-family: Roboto;
